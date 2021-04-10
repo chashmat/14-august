@@ -1,0 +1,30 @@
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: #7fcd00;
+	margin: 0px;
+	padding: 0px;
+}
+
+body > svg {
+	margin: 3% auto;
+}
+
+svg #main {
+	stroke-dasharray: 616;
+	stroke-dashoffset: 616;
+	animation: animate-tomb 5s forwards 1;
+}
+
+@keyframes animate-tomb {
+	to {
+		stroke-dashoffset: 0;
+	}
+}
+
+/* svg #door-container {
+	stroke-dasharray: 155;
+	stroke-dashoffset: 155;
+    animation: animate-door-container  5s ;
+} */
